@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>BLEND</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=1400"> 
+		
+		<link href="css/index.css" rel="stylesheet" type="text/css">
+		<link href="images/pabicon.png" rel="icon" type="image/png" sizes="32x32" >
+
+
+		<script src="js/jquery-3.6.0.min.js"></script> <!--라이브러리연결-->
+		<script src="js/script.js"></script><!--제이쿼리스크립트연결-->
+		
+		<!-- 갤러리1 -->
+		<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script><!-- 제이쿼리 라이브러리,수정X -->
+		<script src="js/slick.js" type="text/javascript" charset="utf-8"></script><!-- 수정X -->
+		<script src="js/gallery1.js" type="text/javascript" charset="utf-8"></script><!-- 디자인에 맞게 수정 -->
+		
+		
+		<!--갤러리:매거진 슬라이드-->
+		<link href="css/slick.css" rel="stylesheet" type="text/css"><!-- 수정X -->
+		<link href="css/slick-theme.css" rel="stylesheet" type="text/css"><!-- 수정X -->
+		<link href="css/gallery1.css" rel="stylesheet" type="text/css"><!-- 디자인에 맞게 수정 -->
+		
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet ">
+		
+	
+</head>
+	
+	
+	<body>
+
+		<div id="header"><!--header s-->
+			<div class="header_inner">
+			<div class="logo">
+				<a href="index.html"><img src="images/logo.png"></a>
+			</div>
+		<ul class="nav">
+				<li><a href="sub1_about/about.html">ABOUT</a></li>
+				<li><a href="sub2_products/products.html">PRODUCTS</a>
+					<ul class="sub">
+						<li><a href="#">All</a></li>
+						<li><a href="#">Skin Care</a></li>
+						<li><a href="#">Make Up</a></li>
+						<li><a href="#">Healthy</a></li>
+					</ul>
+				</li>
+				<li><a href="sub3_onlyblend/blend.html">ONLY BLEND</a>
+					<ul class="sub">
+						<li><a href="#">All</a></li>
+						<li><a href="#">Skin Care</a></li>
+						<li><a href="#">Make Up</a></li>
+						<li><a href="#">Body Care</a></li>
+					</ul>
+				</li>
+				<li><a href="sub4_community/community.html">COMMUNITY</a>
+					<ul class="sub">
+								<li><a href="sub4_community/community.html">Promotion</a></li>
+						<li><a href="sub4_community/community_lookbook.html">LookBook</a></li>
+						<li><a href="sub4_community/community_magazine.html">Magazine</a></li>
+					</ul>
+				</li>
+			</ul>
+			<ul class="icon">
+				<li><a href="#"><img src="images/main_icon1.png"></a></li>
+				<li><a href="#"><img src="images/main_icon2.png"></a></li>
+				<li><a href="#"><img src="images/main_icon3.png"></a></li>
+				
+			</ul>
+			</div>
+		</div><!--header f-->
+		
+		<div class="video"><!--video s-->
+		<video src="video/header.mp4" type="video/mp4"  autoplay loop muted></video>
+		</div><!--video f-->
+		
+		
+		<div id="contents1"><!--contents1 s-->
+			<div class="contents1_inner">
+				<h1 class="contentsh1">Beauty&AMP;Healthy<br>
+				in BLEND</h1>
+				<div class="box1"><img src="images/main_box1.png"></div>
+				<div class="box2"><img src="images/main_circle.png"></div>
+				<div class="box3"><img src="images/main_circle.png"></div>
+				<a href="sub4_community/community_lookbook.html">
+					<div class="img1"><img src="images/main_img1.png">
+					<div class="img1text">
+						<h3>Beauty<br><br>Look Book</h3>
+					</div>
+					</div>
+				</a>
+				<a href="sub4_community/community_lookbook.html">
+					<div class="img2"><img src="images/main_img2.png">
+					<div class="img2text">
+						<h3>Healthy<br><br>Look Book</h3>
+					</div>
+				</div>
+				</a>
+			</div>
+			
+			<div class="blend"><!--blend s-->
+					<h1 class="bh1">We are BLEND</h1>
+						<div class="blend_text">
+							<span class="blend_big">
+							Make a new routine with small change</span><br>
+							작은 변화로 새로운 일상을 만나다
+							<br>
+						</div>
+						
+						<div class="blendcircle"><img src="images/main_circle.png"></div>
+					
+					
+					<div class="blendimg_back"></div>
+					<div class="blend_img"><a href="sub1_about/about.html">
+						<img src="images/main_blend2.png">
+							<div class="blend_imghover">
+								<h3>Brandstory</h3>
+							</div>
+						</a>
+					</div>
+					
+					<div class="blendimg2_back"></div>
+					<div class="blend_img2"><a href="sub3_onlyblend/blend.html">
+						<img src="images/main_blend1.png">
+							<div class="blend_img2hover">
+								<h3>Only Blend</h3>
+							</div>
+						</a>
+					</div>
+			</div>
+			</div><!--blend f-->
+		</div><!--contents1 f-->
+		
+		
+		<div id="contents2"><!--contents2 s--><!--best-promotion 동일배경,레이아웃-->
+			<div class="best">
+				<h1>Best Sellers</h1>
+				<!-- 갤러리 구문 -->
+				<section class="regular slider">
+					<div>
+						<a href="#"><img src="images/main_best2.png">
+						<p class="b_name">보야저 아이섀도우 팔레트</p>
+						<p class="b_price">45,000원</p>
+						</a>
+					</div>
+					<div>
+						<a href="#"><img src="images/main_best5.png">
+						<p class="b_name">네케르 에프엑스 쿠션 파운데이션</p>
+						<p class="b_price">38,000원</p>
+						</a>
+					</div>
+					<div>
+						<a href="#"><img src="images/main_best6.png">
+						<p class="b_name">르 떵 데 헤브 EDT 100ml</p>
+						<p class="b_price">198,000원</p>
+						</a>
+					</div>
+					<div>
+						<a href="#"><img src="images/main_best1.png">
+						<p class="b_name">히알루론산 세럼</p>
+						<p class="b_price">18,000원</p>
+						</a>
+					</div>
+					<div>
+						<a href="#"><img src="images/main_best3.png">
+						<p class="b_name">퓨어 캐스틸 솝 475ml</p>
+						<p class="b_price">20,000원</p>
+						</a>
+					</div>
+					<div>
+						<a href="#"><img src="images/main_best4.png">
+						<p class="b_name">블러 워터 틴트</p>
+						<p class="b_price">16,000원</p>
+						</a>
+					</div>
+				</section>
+				 <div class="more"><a href="sub2_products/products.html"><img src="images/more.png"></a></div>
+				
+				</div>
+				
+				<div class="promotion">
+				<h1>Promotion</h1>
+				<div data-aos="fade-up" data-aos-duration="3000" class="pr_img1">
+					<a href="#"><img src="images/main_pr2.png"></a>
+					<h4>HERA 틴트 1+1</h4>
+					<p class="p1">블랜드 단독 헤라 틴트 1+1 기획전 다양한 색상을 만나보세요</p>
+					</div>
+				<div data-aos="fade-up" data-aos-duration="3500" class="pr_img2">
+					<a href="#"><img src="images/main_pr1.png"></a>
+					<h4>Loivie 입점</h4>
+					<p class="p1">블랜드 단독 Loivie 입점 기념 20% 할인전</p>
+				</div>
+				<div data-aos="fade-up" data-aos-duration="4500" class="pr_img3">
+					<a href="#"><img src="images/main_pr4.png"></a>
+					<h4>유즈 솔리드 퍼퓸 1+1</h4>
+					<p class="p1">승무원 고체향수 유즈퍼퓸을 1+1 구성으로 만나보세요</p>
+				</div>
+				<div data-aos="fade-up" data-aos-duration="4000" class="pr_img4">
+					<a href="#"><img src="images/main_pr3.png"></a>
+					<h4>디폰데 B5 스킨케어 세트</h4>
+					<p class="p1">블랜드에서 디폰데 B5 스킨케어 세트를 할인된 가격에 만나보세요</p>
+				</div>
+				<div class="more1"><a href="sub4_community/community.html"><img src="images/more.png"></a></div>
+			</div>	
+		</div><!--contents2 s-->
+		
+		<div id="magazine"><!--magazine s-->
+			<div class="magazine_inner">
+				<h1>Magazine</h1>
+				<h2>BLEND's News</h2>
+					
+			<div class="magazinebox"></div>			
+			<section class="magazin regular slider2">
+				<div>
+					<a href="sub4_community/community_magazine.html"><img src="images/main_mz1.png"></a>
+				</div>
+				<div>
+					<a href="sub4_community/community_magazine.html"><img src="images/main_mz2.png"></a>
+				</div>
+				<div>
+					<a href="sub4_community/community_magazine.html"><img src="images/main_mz3.png"></a>
+				</div>
+				<div>
+					<a href="sub4_community/community_magazine.html"><img src="images/main_mz4.png"></a>
+				</div>
+				<div>
+					<a href="sub4_community/community_magazine.html"><img src="images/main_mz5.png"></a>
+				</div>
+				<div>
+					<a href="sub4_community/community_magazine.html"><img src="images/main_mz6.png"></a>
+				</div>
+			</section>
+					
+					
+					
+					
+					<!--<div class="ma_img1"><a href="#"><img src="images/main_magazine2.png"></a></div>
+					<div class="ma_img2"><a href="#"><img src="images/main_magazine1.png"></a></div>
+					<div class="ma_img3"><a href="#"><img src="images/main_magazine3.png"></a></div>
+					<div class="more2"><a href="#"><img src="images/more.png"></div>-->
+			</div>
+			
+		</div><!--magazine f-->
+		
+		
+		
+			<div class="follow"><!--follow s-->
+				<h1 class="fh1"><img src="images/sns.png">Follow us</h1>
+				<div class="follow_ani">
+				<p class="a">#BLEND  #BEAUTY  #HEALTHY  #H&B_STORE #MAKE_A_NEW_ROUTINE_WITH_SMALL_CHANGE </p>
+				<p class="b">#BLEND #BEAUTY #HEALTHY #H&B_STORE #MAKE_A_NEW_ROUTINE_WITH_SMALL_CHANGE</p>
+				<p class="c">#BLEND #BEAUTY #HEALTHY #H&B_STORE #MAKE_A_NEW_ROUTINE_WITH_SMALL_CHANGE</p>
+				</div>
+					<section class="regular slider3">
+						<div><a href="#"><img src="images/main_follow1.png"></a></div>
+						<div><a href="#"><img src="images/main_follow2.png"></a></div>
+						<div><a href="#"><img src="images/main_follow3.png"></a></div>
+						<div><a href="#"><img src="images/main_follow4.png"></a></div>
+						<div><a href="#"><img src="images/main_follow5.png"></a></div>
+						<div><a href="#"><img src="images/main_follow6.png"></a></div>
+					</section>
+			</div><!--follow f-->
+
+		
+		<div id="footer"><!--footer s-->
+			<div class="f_logo">
+				<img src="images/footer_logo.png">
+			</div>
+			<ul class="footer1">
+				<li><a href="#">CONTACT US</a></li>
+				<li><a href="#">SITE MAP</a></li>
+				<li><a href="#">INSTAGRAM</a></li>
+			</ul>
+			<ul class="footer2">
+				<li><span class="bold">대표이사</span>  조가영</li> 
+				<li><span class="bold">전화</span>  051)1234.5678</li> 
+				<li><span class="bold">이메일</span>  jo_yg@blend.com</li> 
+			</ul>
+			<br>
+			<p class="d">부산광역시 중구 중앙대로 26</p>
+			<p class="e">© 2021 SHINSEGAE INTERNATIONAL. ALL RIGHTS RESERVED</p>
+
+		</div><!--footer f-->
+	
+		
+			<!-- 갤러리매거진 js -->
+		<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script><!-- 제이쿼리 라이브러리,수정X -->
+		<script src="js/slick.js" type="text/javascript" charset="utf-8"></script><!-- 수정X -->
+
+		<script src="js/gallery1.js" type="text/javascript" charset="utf-8"></script><!-- 디자인에 맞게 수정 -->
+	
+		<!--aos js-->
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+			<script src="js/script.js"></script>
+	</body>
+</html>

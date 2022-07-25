@@ -1,0 +1,467 @@
+html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider{
+        width:100%;
+        margin: 0px auto;
+    }
+
+    .slider .slick-slide {
+      margin: 0px 30px;
+    }
+
+    .slider .slick-slide img {
+      width: 100%;
+    }
+
+    .best .slider .slick-prev:before{content:'<';}
+    .best .slider .slick-next:before {
+      content:'>';
+    }
+
+
+    .slider .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: 1;
+    }
+    
+    .slider .slick-active {
+      opacity: 1;
+    }
+
+    .slider .slick-current {
+      opacity: 1;
+    }
+	
+	/*이동버튼 꾸미기*/
+	.slider .slick-prev, .slider .slick-next{
+		width:35px;
+		height:50px;
+	}
+	.slider .slick-prev{
+		background:transparent;
+		left:-50px;
+	}
+	.slider .slick-prev:hover{
+		background:transparent;
+	}
+	.slider .slick-next{
+		background:transparent;
+		right:-50px;
+	}
+	.slider .slick-next:hover{
+		background:transparent;
+	}
+	
+	/*블릿버튼 꾸미기*/
+	.slider .slick-dots li button:before{
+		content:'';	
+	}
+	.slider .slick-dots li button{
+		width:10px;
+		height:10px;
+		padding:0;
+		background:pink;
+		border-radius:50%;
+		opacity: 0.5;
+		display:none;
+	}
+	.slider .slick-dots li.slick-active button{
+		background:pink;
+		opacity:1
+	}
+	
+	
+	
+	
+/*slider2*/
+	 .slider2 {
+        width:90%;
+        margin: 0px auto;
+    }
+
+    .slick-slide2 {
+      margin: 0px 0px;
+    }
+
+    .slick-slide2 img {
+      width:100%;
+	  height:100%;
+    }
+
+    .slick-slide2 .slick-prev:before,
+    .slick-slide2 .slick-next:before {
+      content:'';
+    }
+
+
+    .slick-slide2 .slick-slide {
+      transition: all  .3s;
+      opacity: 1;
+    }
+    
+    .slick-slide2 .slick-active {
+      opacity: 1;
+    }
+
+    .slick-slide2 .slick-current {
+      opacity: 1;
+    }
+	
+	
+	/*이동버튼 꾸미기*/
+	.slick-slide2 .slick-prev, .slick-slide2 .slick-next{
+		width:35px;
+		height:50px;
+		display:none;
+	}
+	.slick-slide2 .slick-prev{
+		background:url(../images/prev.png) no-repeat;
+		left:-50px;
+	}
+	.slick-slide2 .slick-prev:hover{
+		background:url(../images/prev_hover.png) no-repeat;
+	}
+	.slick-slide2 .slick-next{
+		background:url(../images/next.png) no-repeat;
+		right:-50px;
+	}
+	.slick-slide2 .slick-next:hover{
+		background:url(../images/next_hover.png) no-repeat;
+	}
+	
+	/*블릿버튼 꾸미기*/
+	.slick-slide2 .slick-dots li button:before{
+		content:'';	
+	}
+	.slick-slide2 .slick-dots li button{
+		width:10px;
+		height:10px;
+		padding:0;
+		background:pink;
+		border-radius:50%;
+		opacity: 0.5;
+		display:none;
+	}
+	.slick-slide2 .slick-dots li.slick-active button{
+		background:pink;
+		opacity:1
+	}
+
+/*slider3*/
+	 .slider3 {
+        width:100%;
+		overflow:hidden;
+    }
+
+
+    .slick-slide3 {
+      margin: 0px 0px;
+    }
+
+    .slick-slide3 img {
+      width:100%;
+	  height:100%;
+	  padding-right:0px;
+    }
+
+    .slick-slide3 .slick-prev:before,
+    .slick-slide3 .slick-next:before {
+      content:'';
+    }
+
+
+    .slick-slide3 .slick-slide {
+      transition: all  .3s;
+      opacity: 1;
+    }
+    
+    .slick-slide3 .slick-active {
+      opacity: 1;
+    }
+
+    .slick-slide3 .slick-current {
+      opacity: 1;
+    }
+	
+	
+	/*이동버튼 꾸미기*/
+	.slick-slide3 .slick-prev, .slick-slide3 .slick-next{
+		width:35px;
+		height:50px;
+	
+		
+	}
+	.slick-slide3 .slick-prev{
+		background:transparent;
+		left:-50px;
+	}
+	.slick-slide3 .slick-prev:hover{
+		background:transparent;
+	}
+	.slick-slide3 .slick-next{
+		background:transparent;
+		right:-50px;
+	}
+	.slick-slide3 .slick-next:hover{
+		background:transparent;
+	}
+	
+	/*블릿버튼 꾸미기*/
+	.slick-slide3 .slick-dots li button:before{
+		content:'';	
+	}
+	.slick-slide3 .slick-dots li button{
+		width:10px;
+		height:10px;
+		padding:0;
+		background:pink;
+		border-radius:50%;
+		opacity: 0.5;
+		display:none;
+	}
+	.slick-slide3 .slick-dots li.slick-active button{
+		background:pink;
+		opacity:1
+	}
+	
+
+/*slider4*/
+   .slider4{
+        width:60%;
+        margin: 0px auto;
+
+    }
+	
+	.slider4 img{width:95%;}
+
+    .slick-slider4 .slick-slide {
+      margin: 0px 30px;
+    }
+
+    .slick-slider4 .slick-slide img {
+      width: 100%;
+    }
+	
+	 .slick-slider4 .slick-slide a{
+		 display:block;
+	 } 
+
+    .slick-slider4 .slick-prev:before,
+    .slick-slider4 .slick-next:before {
+      content:'';
+    }
+
+
+    .slick-slider4 .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: 1;
+    }
+    
+    .slick-slider4 .slick-active {
+      opacity: 1;
+    }
+
+    .slick-slider4 .slick-current {
+      opacity: 1;
+    }
+	
+	/*이동버튼 꾸미기*/
+	.posi .slick-slider4 .slick-prev, .slider .slick-next{
+		width:35px;
+		height:50px;
+
+	}
+	.slick-slider4 .slick-prev{
+		background:transparent;
+		left:-50px;;
+
+		
+	}
+	.slick-slider4 .slick-prev:hover{
+		background:transparent;
+	}
+	.slick-slider4 .slick-next{
+		background:transparent;
+		right:-50px;
+	}
+	.slick-slider4 .slick-next:hover{
+		background:transparent;
+	}
+	
+	/*블릿버튼 꾸미기*/
+	.slick-slider4 .slick-dots li button:before{
+		content:'';	
+	}
+	.slick-slider4 .slick-dots li button{
+		width:10px;
+		height:10px;
+		padding:0;
+		background:pink;
+		border-radius:50%;
+		opacity: 0.5;
+		display:none;
+	}
+	.slick-slider4 .slick-dots li.slick-active button{
+		background:pink;
+		opacity:1
+	}
+	
+
+/*slider5*/
+   .slider5{
+        width:55%;
+        margin: 0px 100px;
+    }
+
+    .slick-slider5 .slick-slide {
+      margin: 0px;
+    }
+
+    .slick-slider5 .slick-slide img {
+      width: 100%;
+	  margin:0 20px;
+    }
+
+    .slick-slider5 .slick-prev:before,
+    .slick-slider5 .slick-next:before {
+      content:'';
+    }
+
+
+    .slick-slider5 .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: 1;
+    }
+    
+    .slick-slider5 .slick-active {
+      opacity: 1;
+    }
+
+    .slick-slider5 .slick-current {
+      opacity: 1;
+    }
+	
+/*이동버튼 꾸미기*/
+	.slider5 .slick-prev, .slider .slick-next{
+		width:35px;
+		height:50px;
+	}
+	.slider5 .slick-prev{
+		background:transparent;
+		left:-50px;
+	}
+	.slider5 .slick-prev:hover{
+		background:transparent;
+	}
+	.slider5 .slick-next{
+		background:transparent;
+		right:-50px;
+	}
+	.slider5 .slick-next:hover{
+		background:transparent;
+	}
+	
+	/*블릿버튼 꾸미기*/
+	.slider5 .slick-dots li button:before{
+		content:'';	
+	}
+	.slider5 .slick-dots li button{
+		width:10px;
+		height:10px;
+		padding:0;
+		background:pink;
+		border-radius:50%;
+		opacity: 0.5;
+		display:none;
+	}
+	.slider5 .slick-dots li.slick-active button{
+		background:pink;
+		opacity:1
+	}
+	
+	
+/*slider6*/
+	 .slider6 {
+        width:100%;
+		overflow:hidden;
+    }
+
+
+    .slick-slide6 {
+      margin: 0px 0px;
+    }
+
+    .slick-slide6 img {
+      width:100%;
+	  height:100%;
+	  padding-right:0px;
+    }
+
+    .slick-slide6 .slick-prev:before,
+    .slick-slide6 .slick-next:before {
+      content:'';
+    }
+
+
+    .slick-slide6 .slick-slide {
+      transition: all  .3s;
+      opacity: 1;
+    }
+    
+    .slick-slide6 .slick-active {
+      opacity: 1;
+    }
+
+    .slick-slide6 .slick-current {
+      opacity: 1;
+    }
+	
+	
+	/*이동버튼 꾸미기*/
+	.slick-slide6 .slick-prev, .slick-slide3 .slick-next{
+		width:35px;
+		height:50px;
+	
+		
+	}
+	.slick-slide6 .slick-prev{
+		background:transparent;
+		left:-50px;
+	}
+	.slick-slide6 .slick-prev:hover{
+		background:transparent;
+	}
+	.slick-slide6 .slick-next{
+		background:transparent;
+		right:-50px;
+	}
+	.slick-slide6 .slick-next:hover{
+		background:transparent;
+	}
+	
+	/*블릿버튼 꾸미기*/
+	.slick-slide6 .slick-dots li button:before{
+		content:'';	
+	}
+	.slick-slide6 .slick-dots li button{
+		width:10px;
+		height:10px;
+		padding:0;
+		background:pink;
+		border-radius:50%;
+		opacity: 0.5;
+		display:none;
+	}
+	.slick-slide6 .slick-dots li.slick-active button{
+		background:pink;
+		opacity:1
+	}
+	
+	

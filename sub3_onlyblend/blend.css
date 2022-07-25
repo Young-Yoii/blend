@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+
+*{margin:0; padding:0;}
+ul{list-style:none;}
+a{text-decoration:none; color:#000;}
+	
+body{
+	font-family:'Noto Sans CJK Regular';
+	font-size:14px;
+	line-height:24px;
+	background:#fefcf4;
+}
+	
+	
+/*header*/
+#header{width:100%; 
+		height:78px; 
+		
+		position:fixed;
+		top:0;
+		left:0;
+		z-index:99;
+}
+
+.header_inner{width:1200px; 
+			margin:0 auto; 
+			position:relative; 
+}
+
+.logo{position:absolute; top:0; left:0; z-index:2; padding-top:20px; width:15%;}
+
+.nav{position:absolute; top:0; left:200px; z-index:2; width:70%; }
+.nav>li{
+	float:left;
+	position:relative;
+
+}
+.nav>li>a{
+	display:block;
+			font-size:18px;
+			font-weight:bold;
+			padding:27px 50px;
+			color:#000;			
+}
+.nav li:hover{background:rgba(255,255,255,0.6);}
+.nav li a:hover{font-weight:900;}
+
+
+
+.sub li a{
+	display:block;
+	background:rgba(255,255,255,0.6);
+	text-align:center;
+	padding:10px 0;
+	font-size:16px;
+}
+
+.sub{
+	width:100%;
+	position:absolute;
+	top:78px;
+	left:0;
+	display:none;
+	
+}
+
+.icon{position:absolute; top:0; right:0; z-index:2; width:15%;}
+.icon li{float:left;}
+.icon li a{
+	display:block;
+	padding:27px 15px;
+}
+
+/*banner*/
+#banner1{ width:100%; height:400px; margin-bottom:150px;}
+
+h1{
+	font-family:'Belleza', sans-serif;
+	font-size:42px;
+	color:#de645e;
+	padding-bottom:50px;
+	 margin-bottom:150px;
+}
+
+/*best*/
+#best{
+	width:1200px;
+	margin:0 auto;
+	text-align:center;
+	height:600px;
+
+}
+
+/*blend_best css*/
+
+/*sale*/
+
+#sale{
+	width:1200px;
+	margin:0 auto;
+	text-align:center;
+	height:1900px;
+	margin-top:200px;
+}
+
+.sale_nav{
+	width:100%;
+	height:35px;
+	border-bottom:2px solid #f5989d;
+	border-top:2px solid #f5989d;
+margin:150px 0 50px 0;
+
+
+}
+
+.sale1{float:left; 
+		padding-left:30px; 
+		margin:5px 0; 
+		font-size:16px;
+		font-weight:600;
+}
+.sale_link{float:right; padding:5px 30px 5px 0; }
+.sale_link li{float:left;}
+.sale_link li a{
+	display:block;
+	padding:0 30px;
+	border-right:2px solid #ccc;
+	color:#000;
+	
+}
+.sale_link li:hover{font-weight:600;}
+
+.sale_link li:nth-child(4) a{padding-right:0; border-right:0px;}
+
+
+.spr{float:left; padding-right:75px; padding-top:30px;}
+.sprn{float:left; padding-right:0; padding-top:30px;}
+
+
+
+
+.sprh1{background:url('../images/blend_sale1.png') no-repeat; width:350px; height:400px; transition:background 1s;}
+.sprh1:hover{background:url('../images/blend_sale1hover.png') no-repeat; }
+
+.sprh2{background:url('../images/blend_sale2.png') no-repeat; width:350px; height:400px; transition:background 1s;}
+.sprh2:hover{background:url('../images/blend_sale2hover.png') no-repeat;}
+
+.sprh3{background:url('../images/blend_sale3.png') no-repeat; width:350px; height:400px; transition:background 1s;}
+.sprh3:hover{background:url('../images/blend_sale3hover.png') no-repeat;}
+
+.sprh4{background:url('../images/blend_sale4.png') no-repeat; width:350px; height:400px; transition:background 1s;}
+.sprh4:hover{background:url('../images/blend_sale4hover.png') no-repeat;}
+
+.sprh5{background:url('../images/blend_sale5.png') no-repeat; width:350px; height:400px; transition:background 1s;}
+.sprh5:hover{background:url('../images/blend_sale5hover.png') no-repeat;}
+
+.sprh6{background:url('../images/blend_sale6.png') no-repeat; width:350px; height:400px; transition:background 1s;}
+.sprh6:hover{background:url('../images/blend_sale6hover.png') no-repeat;}
+
+.sprh7{background:url('../images/blend_sale7.png') no-repeat; width:350px; height:400px; transition:background 1s;}
+.sprh7:hover{background:url('../images/blend_sale7hover.png') no-repeat;}
+
+.sprh8{background:url('../images/blend_sale8.png') no-repeat; width:350px; height:400px; transition:background 1s;}
+.sprh8:hover{background:url('../images/blend_sale8hover.png') no-repeat;}
+
+.sprh9{background:url('../images/blend_sale9.png') no-repeat; width:350px; height:400px; transition:background 1s;}
+.sprh9:hover{background:url('../images/blend_sale9hover.png') no-repeat;}
+
+
+
+
+
+
+.name{font-weight:600; padding-top:30px;}
+
+.next{display:inline-block; padding-top:50px;}
+
+.next{clear:both; 
+padding-top:100px; 
+color:#000; 
+font-size:16px; 
+
+text-align:center;
+
+}
+
+.next li{float:left;}
+.next li img{width:10px;}
+.next li a{
+	display:block;
+padding:0 20px;}
+
+.non{font-weight:600;}
+
+.next li a:hover{font-weight:600;}
+
+
+.bottom_banner{width:100%; margin-top:200px;}
+
+/*footer*/
+#footer{
+	background:#252525;
+	text-align:center;
+	color:#fff;
+	position:relative;
+	height:250px;
+}
+
+
+.f_logo img{
+	width:120px;
+}
+
+.footer1{position:absolute; top:0; left:50%; transform:translateX(-50%); padding-top:70px;}
+.footer1 li{float:left;}
+.footer1 li a{
+	display:block;
+	color:#fff;
+	font-weight:bold;
+	padding:0 10px;
+	text-align:center;
+}
+
+.footer2{position:absolute; top:0; left:50%; transform:translateX(-50%); padding-top:120px;}
+.footer2{clear:both;}
+.footer2 li{float:left;
+	padding:0 10px;
+}
+.d{padding-top:58px;}
+.e{padding-top:30px;}
