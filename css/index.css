@@ -85,6 +85,7 @@ video{width:100%; opacity:1; z-index:0; margin-top:-5px;}
 	width:100%;
 	background:url(../images/contents_bg.png) no-repeat center top;
 	background-attachment:fixed;
+	background-size:corver;
 	height:2291px;
 }
 .contents1_inner{
