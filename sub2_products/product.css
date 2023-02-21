@@ -74,10 +74,9 @@ body{
 
 /*banner*/
 #banner1{ width:100%; height:100%; margin-bottom:200px;}
-#banner1 img {width:100%;}
+#banner1>img{width:100%;}
 
-.on{font-weight:bold; border-bottom:4px solid #f5989d;
-	}
+.on{font-weight:bold; border-bottom:4px solid #f5989d;}
 
 #title{
 	width:100%;
