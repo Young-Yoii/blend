@@ -6,5 +6,5 @@
 - HTML, CSS, jQuery
 - pc버전으로만 제작
 
-👉서비스 링크: https://young-yoii.github.io/portfolio-blend-publishing
+👉서비스 링크: https://young-yoii.github.io/blend
 
